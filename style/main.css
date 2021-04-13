@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+	--cinza-escuro: #707070;
+	--cinza-medium: #888888;
+	--cinza-claro: #00000029;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #ffffff;
+	height: 100vh;
+	font-family: 'Roboto', sans-serif;
+}
+header{
+	width: 100%;
+	height: 400px;
+	background: var(--cinza-escuro);
+
+}
+.container{
+	align-items: center;
+	justify-content: center;
+}
+.title h1{
+	text-align: center;
+	padding-top: 20px ;
+	color: #ffffff;
+	letter-spacing: 1px;	
+}
+.title p{
+	text-align: center;
+	padding-top: 40px;
+	color: #ffffff;
+	letter-spacing: 1px;	
+}
+.button{
+	text-align: center;
+	padding-top: 50px; 
+}
+.button a{
+	text-decoration: none;
+	color: var(--cinza-escuro);
+	padding: 10px 30px 10px 30px; 
+	background: #ffffff;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+.box{
+	position: relative;
+	top: 30%;
+	background: #ffffff;
+	width: 100%;
+	height: 200px;
+	transform-origin: right bottom;
+	transform: skewY(5deg);
+}
+section.formulario{
+	z-index: 1;
+	position: absolute;
+	width: 100%;
+	height: 300px;
+}
